@@ -37,11 +37,6 @@
  *	<https://www.gnu.org/licenses/>.)
 */
 
-#define uk 0
-#define en 1
-#define ru 2
-#define custom 3
-
 //Мова встановлюється за її кодом. Наразі доступні такі мови:
 //Language can installed by code. Available languages:
 //Language/Мова		|	Code/Код
