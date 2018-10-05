@@ -54,7 +54,7 @@
 #elif LANG == 9999
 	#include "audio_defines_custom.h"
 #else
-	#error [ERROR] LANG may be defined uk, en, ru or custom | LANG повинен мати значення u, en, ru або custom
+	#error [ERROR] LANG may be defined to 0-2 | LANG повинен мати значення 0-2
 #endif
 	
 const uint8_t audDataSine[10] PROGMEM = {128, 203, 249, 249, 203, 128, 53, 7, 7, 53};
