@@ -45,13 +45,13 @@
 	#error [ERROR] LANG is not defined | LANG не налаштовано
 #endif
 
-#if LANG == uk
+#if LANG == 0
 	#include "audio_defines_uk.h"
-#elif LANG == en
+#elif LANG == 1
 	#include "audio_defines_en.h"
-#elif LANG == ru
+#elif LANG == 2
 	#include "audio_defines_ru.h"
-#elif LANG == custom
+#elif LANG == 9999
 	#include "audio_defines_custom.h"
 #else
 	#error [ERROR] LANG may be defined uk, en, ru or custom | LANG повинен мати значення u, en, ru або custom
